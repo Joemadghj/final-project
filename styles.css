@@ -260,7 +260,8 @@ body {
 /* About Section */
 
 .main {
-    background-color: #131313;
+    background-color: #0f4055;
+    background: -webkit-linear-gradient( to right, #245222, #da22ff);
     padding: 10rem 0;
 }
 
