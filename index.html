@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Natural Disasters</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://geogratis.gc.ca/mapml/client/web-map/mapml-viewer.js" crossorigin></script>
+</head>
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" id="navbar__logo">NATURAL DISASTERS</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__links" id="about-page">About</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#services" class="navbar__links" id="services-page">Details</a>
+            </li>
+            <!-- <li class="navbar__item">
+          <a href="map.html" class="navbar__links" id="map-page"
+            >Map</a>
+        </li> -->
+            <!-- <li class="navbar__btn">
+          <a href="#sign-up" class="button" id="signup">Sign Up</a>
+        </li> -->
+        </ul>
+    </div>
+</nav>
+
+<body>
+
+
+    <!-- Hero Section -->
+    <!-- <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Choose any<span><br> Natural Disaster</span></h1>
+      </div>
+    </div> -->
+
+
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card" data-aos="fade-up"><i class="fas fa-house-damage" data-aos="fade-left"></i></div>
+            </div>
+            <div class="main__content">
+                <div data-aos="fade-left">
+                    <h1>What is this website about</h1>
+                </div>
+                <div data-aos="fade-left">
+                    <h2>Information about natural disasters and how to survive<br>or avoid them</h2>
+                </div>
+                <div data-aos="fade-left">
+                    <p> <br> <br> </p>
+                </div>
+                <div data-aos="fade-left"><button class="main__btn"><a href="#services">more about Natural disasters and how to avoid them</a></button></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <div data-aos="zoom-in">
+            <h1>Natural disasters and what they are caused by</h1>
+        </div>
+        <div class="services__wrapper">
+            <div class="services__card" data-aos="fade-right">
+                <h2>Wildfires</h2>
+                <p>For a wildfire to ignite and burn sufficient of the following three elements need to be present in combination: Fuel in the form of live or dead trees, vegetation and other organic matter; Oxygen in the air around us; Heat to ignite and
+                    burn, from lightning or human sources. air. click view for more details.</p>
+                <div class="services__btn"><button onclick="window.location.href='info.html#sec-1'">view</button></div>
+            </div>
+            <div class="services__card" data-aos="fade-up">
+                <h2>Volcanic Eruptions</h2>
+                <p>Although there are several factors triggering a volcanic eruption, three predominate: the buoyancy of the magma, the pressure from the exsolved gases in the magma and the injection of a new batch of magma into an already filled magma chamber.
+                    click view for more details.</p>
+                <div class="services__btn"><button onclick="window.location.href='info.html#sec-2'">view</button></div>
+            </div>
+            <div class="services__card" data-aos="fade-up">
+                <h2>Droughts</h2>
+                <p>A drought is caused by drier than normal conditions that can eventually lead to water supply problems. Really hot temperatures can make a drought worse by evaporating moisture from the soil. Click view for more details.
+
+                </p>
+                <div class="services__btn"><button onclick="window.location.href='info.html#sec-3'">view</button></div>
+            </div>
+            <div class="services__card" data-aos="fade-left">
+                <h2>Earthquakes</h2>
+                <p>The tectonic plates are always slowly moving, but they get stuck at their edges due to friction. When the stress on the edge overcomes the friction, there is an earthquake that releases energy in waves that travel through the earth's crust
+                    and cause the shaking that we feel. Click view for more details. </p>
+                <div class="services__btn"><button onclick="window.location.href='info.html#sec-4'"> view</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <h3>DISASTER</h3>
+            <p>For more help with anything please contact us below!</p>
+            <ul class="socials">
+                <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                <li><a href="mailto:yousif2434@tapschool.ae"><i class="fa fa-google-plus"></i></a></li>
+                <!-- <li><a href="#"><i class="fa fa-youtube"></i></a></li> -->
+                <li><a href="https://www.linkedin.com/in/tamer-ali-851143231/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© Natural Disaster's Project. All rights reserved</p>
+        </div>
+
+
+    </footer>
+
+    <script src="app.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            // spaceBetween: 3,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500
+        });
+    </script>
+</body>
+
+</html>
