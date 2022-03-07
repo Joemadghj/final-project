@@ -859,7 +859,7 @@ swiper-wrapper{
 
 .container{
   padding: 2rem;
-  background-color: #131313;
+  background-color: #ffffff;
   border-radius: 2px;
   line-height: 1.4rem;
   /* box-shadow: 0 0 1rem rgba(0,0,0,.1); */
@@ -899,7 +899,7 @@ swiper-wrapper{
   text-align: left;
 
   /* background-color: #ff8177; */
-    background-image: linear-gradient(to right, #850c3e 0%, #ff0404 100%);
+    background-color: #000;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -915,7 +915,7 @@ swiper-wrapper{
   text-align: left;
 
   /* background-color: #ff8177; */
-  background-image: linear-gradient(to right, #0633fc 0%, #bf5a48 100%);
+  background-color: #000;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -931,7 +931,7 @@ swiper-wrapper{
   text-align: left;
 
   /* background-color: #ff8177; */
-  background-image: linear-gradient(to right, #900afd 0%, #25a30c 100%);
+  background-color: #000;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -946,8 +946,7 @@ swiper-wrapper{
   align-items: center;
   text-align: left;
 
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
+  background-color: #000;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
